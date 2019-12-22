@@ -49,10 +49,13 @@ p a {
     border-radius: 50%;
 }
 
-a a:visited {
+a:hover {
     cursor: crosshair;
 }
 
+a:visited {
+    color: black;
+}
 
 #image {
     display: flex;
