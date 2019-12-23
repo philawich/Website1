@@ -11,9 +11,13 @@ body {
     flex-direction: row;
     list-style-type: none;
     justify-content: flex-end;
-    margin-right: 5%;
+    margin-right: 0%;
     letter-spacing: .3px;
     font-size: 21px;
+}
+
+li {
+    padding-right: 25px;
 }
 
 .navigation-top a {
