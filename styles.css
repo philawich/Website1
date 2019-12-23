@@ -18,6 +18,7 @@ body {
 
 li {
     padding-right: 25px;
+    text-emphasis: bolder;
 }
 
 .navigation-top a {
@@ -50,7 +51,7 @@ p a {
     padding: 2px 5px 3px 5px;
     font-size: 20px;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 a:hover {
@@ -68,4 +69,22 @@ a:visited {
     border-radius: 50%;
     float: right;
     margin-right: 5%;
+}
+
+.projects-header-center {
+    display: block;
+    text-align: center;
+}
+
+#pokemonAPI {
+    display: block;
+    height: 250px;
+    width: 500px;
+    margin-left: 5%;
+    padding-top: 10px;
+}
+
+#pokemonText {
+    display: block;
+    margin-left: 15%;
 }
