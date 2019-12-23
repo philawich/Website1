@@ -37,12 +37,14 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    z-index: 2;
 }
 
 .container-left {
     max-width: 350px;
     margin: 8rem 3rem 8rem 3rem;
     background: #F4F5F7;
+    z-index: 2;
 }
 
 p a {
@@ -52,6 +54,7 @@ p a {
     font-size: 20px;
     text-decoration: none;
     border-radius: 70%;
+    z-index: 2;
 }
 
 a:hover {
@@ -69,6 +72,8 @@ a:visited {
     border-radius: 50%;
     float: right;
     margin-right: 5%;
+    position: sticky;
+    z-index: -1;
 }
 
 .projects-header-center {
@@ -77,14 +82,32 @@ a:visited {
 }
 
 #pokemonAPI {
-    display: block;
-    height: 250px;
-    width: 500px;
-    margin-left: 5%;
-    padding-top: 10px;
+    width: 40%;
+    margin-left: 3rem;
+    border-radius: 50%;
 }
 
 #pokemonText {
-    display: block;
-    margin-left: 15%;
+    margin-left: 15rem;
 }
+
+ul.svg-bottom-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;  
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0;
+    z-index: 2;
+    margin-top: auto;
+    position: fixed;
+    bottom: 2.5%;
+}
+
+ul.svg-bottom-left li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
